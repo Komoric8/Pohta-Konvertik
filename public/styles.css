@@ -1,0 +1,87 @@
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    color: #390000;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #8c4343;
+}
+
+/* Контейнер формы */
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Формы */
+form {
+    display:block;
+    flex-direction: column; /* Расположение элементов под друг другом */
+    gap: 15px; /* Отступ между элементами */
+}
+
+label {
+    font-size: 14px;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ff0000;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #390000;
+    color: #8c4343;
+    font-size: 16px;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+/* Ссылки */
+a {
+    color: #8c4343;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+header {
+    background: #8c4343;
+    color: #390000;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+    margin-top: 20px;
+}
+
